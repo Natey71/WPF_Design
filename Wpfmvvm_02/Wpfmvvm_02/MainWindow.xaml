@@ -15,18 +15,17 @@
             <Button Height="30" Command="{Binding ShowWindowCommand}"  Content="Add User" Width="100" VerticalContentAlignment="Center" Padding="5" Margin="25" VerticalAlignment="Top" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="#E0E0E0"  />
             <Button Height="30" Content="Write to JSON" Width="150" VerticalContentAlignment="Center" Padding="5" Margin="0 25 200 00" VerticalAlignment="Top" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="#E0E0E0" Click="Button_Click"  />
 
-            <ListView Name="UserList" ItemsSource="{Binding Items}" BorderBrush="#cdcdcd" Margin="25,70,25,25" Padding="0" Foreground="Black">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn DisplayMemberBinding="{Binding Color1}" Header="Color1"/>
-                        <GridViewColumn DisplayMemberBinding="{Binding Color2}" Header="Color2"/>
-                        <GridViewColumn DisplayMemberBinding="{Binding Color3}" Header="Color3"/>
-                        <GridViewColumn DisplayMemberBinding="{Binding Color4}" Header="Color4"/>
-
-
-                    </GridView>
-                </ListView.View>
-            </ListView>
+            <ListBox Name="UserList" ItemsSource="{Binding Users}" BorderBrush="#cdcdcd" Margin="25,70,25,25" Padding="0" Foreground="Black">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" />
+                            <TextBlock Text=": " />
+                            <TextBlock Text="{Binding Email}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
         </Grid>
 
     </Grid>

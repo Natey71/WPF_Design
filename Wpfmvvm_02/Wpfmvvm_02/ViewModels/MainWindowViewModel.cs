@@ -25,19 +25,11 @@ namespace Wpfmvvm_02.ViewModels
         public MainWindowViewModel()
         {
             Users = UserManager.GetUsers();
-            Items = UserManager.getColors();
 
-            dosomework();
             ShowWindowCommand = new RelayCommand(ShowWindow, CanShowWindow);
         }
 
-        public void dosomework()
-        {
-            foreach(Items items in Items)
-            {
-                Debug.WriteLine($"------------------------------------- {items.Color1}");
-            }
-        }
+
 
         private void ShowWindow(object obj)
         {
