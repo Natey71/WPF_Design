@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -28,8 +29,8 @@ namespace Wpfmvvm_02
         public MainWindow()
         {
             InitializeComponent();
-            ViewModels.MainWindowViewModel mainViewModel = new ViewModels.MainWindowViewModel();
-            this.DataContext = mainViewModel;
+            mainview = new MainWindowViewModel();
+            this.DataContext = mainview;
         }
         private void FilterTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -51,6 +52,7 @@ namespace Wpfmvvm_02
 
         public void writejson()
         {
+
             string json = JsonConvert.SerializeObject(mainview.Users);
             string file = @"C:\\Users\mende\vsCode\JSON\user.json";
 

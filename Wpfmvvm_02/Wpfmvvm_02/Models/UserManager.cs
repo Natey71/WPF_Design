@@ -29,7 +29,23 @@ namespace Wpfmvvm_02.Models
             return _DatabaseUsers;
         }
 
-
+        public static bool DoesUserExist(User user)
+        {
+            bool result = false;    
+            SqlConnection sqlConnection = Connection.Connection.newConnection();
+            string query = "SELECT ENAME, EMAIL FROM EMPLOYEE WHERE ENAME = @NAME AND EMAIL = @EMAIL";
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+            sqlCommand.Parameters.AddWithValue("@NAME", user.Name);
+            sqlCommand.Parameters.AddWithValue("@EMAIL", user.Email);
+            sqlConnection.Open();
+            SqlDataReader reader = sqlCommand.ExecuteReader();
+            if (reader.Read())
+            {
+                result = true;
+            }
+            sqlConnection.Close();
+            return result;
+        }
         public static void AddUser(User user)
         {
             _DatabaseUsers.Add(user);

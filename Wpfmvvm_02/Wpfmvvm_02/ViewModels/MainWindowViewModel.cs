@@ -24,6 +24,7 @@ namespace Wpfmvvm_02.ViewModels
         public ICommand WriteJSON { get; set; }
         public MainWindowViewModel()
         {
+            Users = new ObservableCollection<User>();
             Users = UserManager.GetUsers();
 
             ShowWindowCommand = new RelayCommand(ShowWindow, CanShowWindow);

@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using Wpfmvvm_02.Commands;
 using Wpfmvvm_02.Models;
@@ -31,8 +32,15 @@ namespace Wpfmvvm_02.ViewModels
 
         private void AddUser(object obj)
         {
-
-            UserManager.AddUser(new User() { Name = Name, Email = Email });
+            var user = new User() { Name = Name, Email = Email };
+            if (!UserManager.DoesUserExist(user))
+            {
+                UserManager.AddUser(user);
+            }
+            else
+            {
+                MessageBox.Show("Sorry this user exist");
+            }
             SqlConnection conn = Connection.Connection.newConnection();
             
 
