@@ -9,6 +9,9 @@ namespace Wpfmvvm_02.Commands
 {
     public class RelayCommand : ICommand
     {
+        private ICommand showButtonWindowCommand;
+        private object canShowButtonWindow;
+
         public event EventHandler CanExecuteChanged;
 
         private Action<object> _Excute { get; set; }
@@ -23,7 +26,11 @@ namespace Wpfmvvm_02.Commands
 
         }
 
-
+        public RelayCommand(ICommand showButtonWindowCommand, object canShowButtonWindow)
+        {
+            this.showButtonWindowCommand = showButtonWindowCommand;
+            this.canShowButtonWindow = canShowButtonWindow;
+        }
 
         public bool CanExecute(object parameter)
         {

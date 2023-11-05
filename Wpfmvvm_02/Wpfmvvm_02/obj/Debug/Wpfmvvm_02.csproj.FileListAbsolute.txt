@@ -100,3 +100,5 @@ C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.csproj.CopyComplete
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.exe
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.pdb
+C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\ButtonWindow.g.cs
+C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\ButtonWindow.baml

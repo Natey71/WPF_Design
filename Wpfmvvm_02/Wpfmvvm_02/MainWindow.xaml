@@ -14,8 +14,9 @@
             
             <TextBox Name="FilterTextBox" TextChanged="FilterTextBox_TextChanged" Height="30" Width="200" Margin="25" VerticalAlignment="Top"  HorizontalAlignment="left" BorderThickness="1" BorderBrush="#E0E0E0" />
             <Button Height="30" 
-                    Command="{Binding ShowWindowCommand}"  
-                    Content="Add User" 
+                    Command="{Binding ShowButtonWindowCommand}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                    Content="Buttons" 
                     Width="100" 
                     VerticalContentAlignment="Center" 
                     Padding="5" 
