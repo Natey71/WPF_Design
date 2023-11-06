@@ -6,21 +6,27 @@
         xmlns:local="clr-namespace:Wpfmvvm_02.Views"
         mc:Ignorable="d"
         Title="ButtonWindow" Height="450" Width="800">
-    <Grid>
+    <Window.Resources>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+
+    </Window.Resources>
 
 
-        <StackPanel Orientation="Horizontal">
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
+        <Grid>
 
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-            <Button Content="This is button One"/>
-        </StackPanel>
+
+        <WrapPanel >
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+                                         
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+            <Button Content="button One" Margin="8"/>
+        </WrapPanel>
 
 
     </Grid>
