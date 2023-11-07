@@ -11,7 +11,12 @@
 
         <Grid>
 
-
+        <TextBlock Margin="20"
+                   FontSize="24">
+            If you are having an issue with the program please raise an issue on github
+            <LineBreak/>
+            <Hyperlink NavigateUri="github.com/Natey71">GitHub Natey71</Hyperlink>
+        </TextBlock>
 
 
     </Grid>
