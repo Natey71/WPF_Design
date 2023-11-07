@@ -86,13 +86,11 @@ C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Styles\B
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Styles\ColumnHeader.baml
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Styles\ListView.baml
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\MainWindow.g.cs
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\AddUser.g.cs
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\App.g.cs
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02_MarkupCompile.cache
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02_MarkupCompile.lref
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\App.baml
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\MainWindow.baml
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\AddUser.baml
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.g.resources
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.Properties.Resources.resources
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.csproj.GenerateResource.cache
@@ -100,5 +98,5 @@ C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.csproj.CopyComplete
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.exe
 C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Wpfmvvm_02.pdb
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\ButtonWindow.g.cs
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\ButtonWindow.baml
+C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\HelpWindow.g.cs
+C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\Views\HelpWindow.baml

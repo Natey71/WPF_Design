@@ -20,33 +20,18 @@ namespace Wpfmvvm_02.ViewModels
 
         public ObservableCollection<User> Users { get; set; }
         public ObservableCollection<Items> Items { get; set; }
-        public ICommand ShowWindowCommand { get; set; }
         public ICommand ShowButtonWindowCommand { get; set; }   
-
-        public ICommand WriteJSON { get; set; }
 
         public MainWindowViewModel()
         {
             Users = new ObservableCollection<User>();
             Users = UserManager.GetUsers();
-
-            ShowWindowCommand = new RelayCommand(ShowWindow, CanShowWindow);
-            ShowButtonWindowCommand = new OpenWindowCommand(typeof(ButtonWindow));
+            ShowButtonWindowCommand = new OpenWindowCommand(typeof(HelpWindow));
         
         }
 
 
 
-        private void ShowWindow(object obj)
-        {
-            AddUser addUserWindow = new AddUser();
-            addUserWindow.Show();
-        }
-
-        private bool CanShowWindow(object obj)
-        {
-            return true;
-        }
 
     }
 }

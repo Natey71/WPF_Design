@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wpfmvvm_02.ViewModels
 {
-    public class ButtonWindowVM
+    public class HelpWindowVM
     {
     }
 }

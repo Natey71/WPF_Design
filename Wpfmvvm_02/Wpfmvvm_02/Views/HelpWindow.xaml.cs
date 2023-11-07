@@ -18,14 +18,14 @@ namespace Wpfmvvm_02.Views
     /// <summary>
     /// Interaction logic for ButtonWindow.xaml
     /// </summary>
-    public partial class ButtonWindow : Window
+    public partial class HelpWindow : Window
     {
-        public ButtonWindow()
+        public HelpWindow()
         {
             InitializeComponent();
 
 
-            DataContext = new ButtonWindowVM();
+            DataContext = new HelpWindowVM();
         }
     }
 }

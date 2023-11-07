@@ -102,15 +102,11 @@
     <Compile Include="Models\Items.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserManager.cs" />
-    <Compile Include="ViewModels\AddUserViewModel.cs" />
-    <Compile Include="ViewModels\ButtonWindowVM.cs" />
+    <Compile Include="ViewModels\HelpWindowVM.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <Compile Include="Views\AddUser.xaml.cs">
-      <DependentUpon>AddUser.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ButtonWindow.xaml.cs">
-      <DependentUpon>ButtonWindow.xaml</DependentUpon>
+    <Compile Include="Views\HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -137,11 +133,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\AddUser.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ButtonWindow.xaml">
+    <Page Include="Views\HelpWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
