@@ -33,7 +33,7 @@
         <Grid Margin="100 250 100 50">
 
             <WrapPanel >
-                <Button Content="button One" Margin="8"/>
+                <Button Content="Load Excel" Margin="8"/>
                 <Button Content="button One" Margin="8"/>
 
                 <Button Content="button One" Margin="8"/>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\obj\Debug\
+C:\Users\mende\source\repos\_WPF\Design\WpfDesign\Wpfmvvm_02\obj\Debug\
 Wpfmvvm_02
 none
 false
 DEBUG;TRACE
-C:\Users\mende\source\repos\_WPF\Design\Wpfmvvm_02\Wpfmvvm_02\App.xaml
-5-1143872423
+C:\Users\mende\source\repos\_WPF\Design\WpfDesign\Wpfmvvm_02\App.xaml
+6-1936226453
 
-161365336498
-27-872226955
-MainWindow.xaml;Styles\Buttons.xaml;Styles\ColumnHeader.xaml;Styles\ListView.xaml;Views\HelpWindow.xaml;
+18396803926
+271637948138
+MainWindow.xaml;Styles\Buttons.xaml;Styles\ColumnHeader.xaml;Styles\ListView.xaml;Views\Button1-5\LoadExcelWindow.xaml;Views\HelpWindow.xaml;
 
 True
 
