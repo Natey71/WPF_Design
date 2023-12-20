@@ -41,8 +41,8 @@
                      Margin="20 10"
                      Height="15"
                      MaxHeight="40"
-                     Value="{Binding progressValue}"
-                     Maximum="{Binding progressMax}"
+                     Value="{Binding ProgressValue}"
+                     Maximum="{Binding ProgressMax}"
                      />
 
 

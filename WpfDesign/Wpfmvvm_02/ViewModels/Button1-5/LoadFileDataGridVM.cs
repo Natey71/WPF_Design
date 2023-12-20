@@ -7,12 +7,23 @@ using System.Windows.Input;
 
 namespace Wpfmvvm_02.ViewModels.Button1_5
 {
-    public class LoadFileDataGridVM
+    public class LoadFileDataGridVM:ViewModelBase
     {
 
         public ICommand LoadFileCommand { get; set; }
 
-
+        private int _progressValue { get; set; }
+        public int ProgressValue 
+        {
+            
+            get { return _progressValue; }
+            set
+            {
+                _progressValue = value;
+                OnPropertyChanged(nameof(ProgressValue));
+            }
+        }
+        public int ProgressMax { get; set; }
 
         public LoadFileDataGridVM()
         {
@@ -20,6 +31,10 @@ namespace Wpfmvvm_02.ViewModels.Button1_5
 
         }
 
+        private async void loadFileintoDataGrid(string filepath)
+        {
+            
+        }
 
 
     }
