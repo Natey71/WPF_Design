@@ -7,3 +7,7 @@ WPF Design Template for me to refrence and grow on building windows applications
 I have started this project it is a playground to expand my WPF Design and C#
 
 I added this...
+
+
+
+change this again
