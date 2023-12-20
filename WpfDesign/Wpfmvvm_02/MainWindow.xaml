@@ -33,7 +33,10 @@
         <Grid Margin="100 250 100 50">
 
             <WrapPanel >
-                <Button Content="Load Excel" Margin="8"/>
+                <Button Content="Load File" 
+                        Margin="8"
+                        Command="{Binding ShowLoadFileWindowCommand}"
+                        CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
                 <Button Content="button One" Margin="8"/>
 
                 <Button Content="button One" Margin="8"/>

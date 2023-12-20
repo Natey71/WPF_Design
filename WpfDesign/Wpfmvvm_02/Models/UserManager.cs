@@ -11,7 +11,7 @@ namespace Wpfmvvm_02.Models
 {
     public class UserManager
     {
-        public static ObservableCollection<User> _DatabaseUsers = new ObservableCollection<User>();
+        public static ObservableCollection<User> _DatabaseUsers { get; set; }
 
         public static ObservableCollection<User> GetUsers()
         {
@@ -23,7 +23,7 @@ namespace Wpfmvvm_02.Models
             SqlDataReader reader = sqlCommand.ExecuteReader();
             while (reader.Read())
             {
-                _DatabaseUsers.Add(new User() { Name = reader["ENAME"].ToString(), Email = reader["EMAIL"].ToString() });
+                //_DatabaseUsers.Add(new User() { Name = reader["ENAME"].ToString(), Email = reader["EMAIL"].ToString() });
             }
             sqlConnection.Close();
             return _DatabaseUsers;
