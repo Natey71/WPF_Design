@@ -29,8 +29,12 @@ namespace Wpfmvvm_02
         public MainWindow()
         {
             InitializeComponent();
+
+
             mainview = new MainWindowViewModel();
             this.DataContext = mainview;
+
+
         }
 
 

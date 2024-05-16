@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Wpfmvvm_02.Views.Button1_5
 {
     /// <summary>
-    /// Interaction logic for LoadExcelWindow.xaml
+    /// Interaction logic for LoadFileWindow.xaml
     /// </summary>
-    public partial class LoadExcelWindow : Window
+    public partial class LoadFileWindow : Window
     {
-        public LoadExcelWindow()
+        public LoadFileWindow()
         {
             InitializeComponent();
         }
